@@ -67,6 +67,9 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails', '~> 3.0'
 
+  # Add Selenium webdriver - https://code.google.com/p/selenium/wiki/RubyBindings
+  gem 'selenium-webdriver', '~> 2.44.0'
+
   # Use Capybara acceptance test framework - https://github.com/jnicklas/capybara
   gem 'capybara'
 
