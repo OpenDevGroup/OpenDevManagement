@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'projects/index'
+  match 'projects/create' => 'projects#create', :via => :post
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

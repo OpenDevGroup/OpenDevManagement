@@ -1,0 +1,10 @@
+<h1>Projects</h1>
+
+<%= form_tag('/projects/create', :method=>'post') do %>
+  <%= text_field_tag(:project_title) %>
+  <%= submit_tag('Add Project') %>
+<% end %>
+
+<% @project_items.each do |p| %>
+         <li> <%= p.project_item %> </li>
+<% end %>
