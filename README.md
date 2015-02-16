@@ -24,20 +24,20 @@ This application requires the following two application packages to be installed
 During this process, your machine will (amongst other things):
 
 1. Download a copy of the 64 bit Precise Pangolin Unbuntu box from Atlas - https://atlas.hashicorp.com/boxes/search
-2. Boot that image using VirtualBox and starts the bootstrapping bash script in the Vagrantfile
-3. Runs system updates
+2. Boot that image using VirtualBox
+3. Run system updates
 3. Install base development libraries
 4. Install Ruby 2.1.5 (Go make yourself a cup of coffee or two at this point)
 5. Update rubygems (the 'gem' command)
-6. Install Postgres & sets up the databases (one for dev data, the other for test data)
-7. Install some system gems
-8. Install the applicaiton specific gems
-9. Install the Puma webserver
+6. Install Postgres & set up the databases (one for dev data, the other for test data)
+7. Install system gems
+8. Install application specific gems
+9. Install Puma webserver
 10. Boot the application with Foreman
 
-After which, the application will be available at http://localhost:3005
+After which, the application will be available at [http://localhost:3005](http://localhost:3005)
 
 Post initial installation, the `vagrant up` command will bring the project up much faster. 
 
-For more information, checkout the Vagrantfile in the root directory. 
+For more information, check the [Vagrantfile](https://github.com/OpenDevGroup/OpenDevManagement/blob/master/Vagrantfile) in the root directory. 
 
