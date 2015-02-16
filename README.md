@@ -1,6 +1,10 @@
 # OpenDevManagement
 An open source solution for managing projects with GitHub integration.
 
+[![Code Climate](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/gpa.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement)
+
+[![Test Coverage](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/coverage.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement)
+
 ## Installation
 
 This application includes a Vagrantfile to automate configuring development environments
@@ -11,8 +15,6 @@ This application requires the following two application packages to be installed
 
 1. [VirtualBox](https://www.virtualbox.org)
 2. [Vagrant](https://www.vagrantup.com)
-
-### Installation
 
 #### Mac OS X
 
