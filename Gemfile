@@ -19,6 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # Use Haml templating markup - https://github.com/haml/haml
 gem 'haml'
+gem "haml-rails", "~> 0.8"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
