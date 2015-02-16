@@ -23,7 +23,7 @@ This application requires the following two application packages to be installed
 **Running the `vagrant up` command for the first time will take quite a while**.
 During this process, your machine will (amongst other things):
 
-1. Download a copy of the 64 bit Trusty Tahr Unbuntu box from Atlas - https://atlas.hashicorp.com/boxes/search
+1. Download a copy of the 64 bit Precise Pangolin Unbuntu box from Atlas - https://atlas.hashicorp.com/boxes/search
 2. Boot that image using VirtualBox and starts the bootstrapping bash script in the Vagrantfile
 3. Runs system updates
 3. Install base development libraries
