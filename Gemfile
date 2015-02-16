@@ -42,7 +42,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "puma"
 
 # Heroku support - https://github.com/heroku/rails_12factor
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 
 # Add authentication gems -  https://github.com/plataformatec/devise & https://github.com/intridea/omniauth
@@ -54,6 +54,10 @@ gem 'omniauth'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+
+  # Install Foreman - https://github.com/ddollar/foreman
+  gem 'foreman' 
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
