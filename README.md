@@ -1,9 +1,7 @@
 # OpenDevManagement
 An open source solution for managing projects with GitHub integration.
 
-[![Code Climate](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/gpa.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement)
-
-[![Test Coverage](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/coverage.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement)
+[![Code Climate](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/gpa.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement) [![Test Coverage](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement/badges/coverage.svg)](https://codeclimate.com/github/OpenDevGroup/OpenDevManagement) [![Build Status](https://travis-ci.org/OpenDevGroup/OpenDevManagement.svg?branch=master)](https://travis-ci.org/OpenDevGroup/OpenDevManagement)
 
 ## Installation
 
